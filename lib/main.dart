@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:prakmola_annisa/column_widget.dart';
 import 'package:prakmola_annisa/first_widget.dart';
+import 'package:prakmola_annisa/form_widget.dart';
 import 'package:prakmola_annisa/row_widget.dart';
 
 void main() {
@@ -18,7 +19,7 @@ class MyApp extends StatelessWidget {
         colorScheme: ColorScheme.fromSeed(
           seedColor: Colors.deepPurple)
       ),
-      home: const FirstWidget()
+      home: const FormWidget()
     );
   }
 
