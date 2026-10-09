@@ -36,14 +36,14 @@ class ResponsiveProfilePage extends StatelessWidget{
                   ? const Row(
                       crossAxisAlignment: CrossAxisAlignment.start,
                       children: [
-                        Expanded(child: _profileHeader()),
+                        Expanded(child: _ProfileHeader()),
                         SizedBox(width: 24,),
                         Expanded(child: _ProfileInfo())
                       ],
                     )
                   : const Column(
                     children: [
-                      _profileHeader(),
+                      _ProfileHeader(),
                       SizedBox(height: 20),
                       _ProfileInfo()
                     ],
@@ -57,8 +57,8 @@ class ResponsiveProfilePage extends StatelessWidget{
   }
 }
 
-class _profileHeader extends StatelessWidget {
-  const _profileHeader();
+class _ProfileHeader extends StatelessWidget {
+  const _ProfileHeader();
 
   @override
   Widget build(BuildContext context) {
