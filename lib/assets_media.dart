@@ -68,9 +68,8 @@ class _AssetsMediaPageState extends State<AssetsMediaPage> {
           ],
         ),
       ),
-      // --- KONTEN UTAMA (KODE LAMA) ---
-      body: SafeArea(
-        child: SingleChildScrollView(
+      body: SafeArea( //SafeArea digunakan untuk menjaga konten agar tidak bertabrakan dengan area sistem perangkat.
+        child: SingleChildScrollView( //agar bisa discroll
           padding: const EdgeInsets.all(20),
           child: Column(
             children: [
